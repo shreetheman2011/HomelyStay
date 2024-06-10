@@ -1,2 +1,3 @@
 [build]
   dependencies = ["prisma"]
+  environment = { PRISMA_TELEMETRY_INFORMATION = "false" }
