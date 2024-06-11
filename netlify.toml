@@ -1,7 +1,6 @@
 [build]
   dependencies = ["prisma"]
   environment = { PRISMA_TELEMETRY_INFORMATION = "false" }
-  command = "CI= npm run build"
   command = "prisma generate && npm run build"
 
 
